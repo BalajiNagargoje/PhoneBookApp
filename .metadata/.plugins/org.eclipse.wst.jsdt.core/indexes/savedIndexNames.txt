@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\Lenovo\OneDrive\Desktop\MiniProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3045058577.index

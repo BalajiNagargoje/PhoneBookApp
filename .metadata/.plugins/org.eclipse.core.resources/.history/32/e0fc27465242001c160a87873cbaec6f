@@ -1,0 +1,5 @@
+package com.bikkadit.phonebook.service;
+
+public interface ContactServiceI {
+
+}

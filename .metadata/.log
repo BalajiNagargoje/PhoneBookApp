@@ -1,0 +1,201 @@
+!SESSION 2021-11-10 23:21:25.759 -----------------------------------------------
+eclipse.buildId=4.11.1.202108151956
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-11-10 23:21:59.892
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-10 23:21:59.892
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37393dab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4866a755,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-10 23:22:06.301
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-11-10 23:24:25.190
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:26.635
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:26.635
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3b52ae66[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:26.651
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:26.927
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.659
+!MESSAGE Boot LS startup time from start to initialized: 5998ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.767
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EUTqbXSrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.770
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.772
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.773
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.773
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.774
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EUTqbXSr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.779
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.783
+!MESSAGE buffering callback sts4.classpath.EUTqbXSr phoneBookApp false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:32.783
+!MESSAGE executing callback sts4.classpath.EUTqbXSr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:25:33.186
+!MESSAGE executing callback sts4.classpath.EUTqbXSr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:28:06.577
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EUTqbXSr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:28:06.578
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EUTqbXSr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:28:06.579
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:28:06.579
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EUTqbXSr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:10.829
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:10.829
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3b52ae66[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:10.830
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.129
+!MESSAGE Boot LS startup time from start to initialized: 2297ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.219
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.voDAGdhDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.220
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.221
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.221
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.222
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.222
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.voDAGdhD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.229
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.231
+!MESSAGE buffering callback sts4.classpath.voDAGdhD phoneBookApp false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.232
+!MESSAGE executing callback sts4.classpath.voDAGdhD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:29:13.636
+!MESSAGE executing callback sts4.classpath.voDAGdhD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.952
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.953
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.954
+!MESSAGE buffering callback sts4.classpath.voDAGdhD PhoneBookApp false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.955
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.955
+!MESSAGE buffering callback sts4.classpath.voDAGdhD phoneBookApp true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.956
+!MESSAGE executing callback sts4.classpath.voDAGdhD 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:02.982
+!MESSAGE executing callback sts4.classpath.voDAGdhD SUCCESS [done]
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-11-10 23:30:03.000
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\Lenovo\OneDrive\Desktop\MiniProject\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\phoneBookApp.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:391)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:856)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:884)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$1(RefactoringHistoryService.java:369)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:576)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2021-11-10 23:30:03.000
+!MESSAGE Could not move: C:\Users\Lenovo\OneDrive\Desktop\MiniProject\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\phoneBookApp.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:04.756
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:04.761
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:04.765
+!MESSAGE buffering callback sts4.classpath.voDAGdhD PhoneBookApp false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:04.766
+!MESSAGE executing callback sts4.classpath.voDAGdhD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-10 23:30:04.844
+!MESSAGE executing callback sts4.classpath.voDAGdhD SUCCESS [done]
