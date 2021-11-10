@@ -91,13 +91,6 @@ public class Contact {
 	public void setUpdatedDate(LocalDate updatedDate) {
 		this.updatedDate = updatedDate;
 	}
-
-	@Override
-	public String toString() {
-		return "Contact [contactId=" + contactId + ", contactName=" + contactName + ", contactNumber=" + contactNumber
-				+ ", contactEmail=" + contactEmail + ", activeSw=" + activeSw + ", createdDate=" + createdDate
-				+ ", updatedDate=" + updatedDate + "]";
-	}
 	
 	
 	
