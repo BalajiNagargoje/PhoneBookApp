@@ -1,7 +1,6 @@
 package com.bikkadit.phonebook.service;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -30,21 +29,13 @@ public class ContactServiceImpl implements ContactServiceI {
 
 	@Override
 	public Contact getContactById(Integer cid) {
-		Optional<Contact>findById=contactRepository.findById(cid);
-		if(findById.isPresent()) {
-			Contact contact=  findById.get();
-			return contact;
-		}
+		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public boolean deleteContactById(Integer cid) {
-		boolean status=contactRepository.existsById(cid);
-		if(status) {
-			contactRepository.deleteById(cid);
-			return true;
-		}
+		// TODO Auto-generated method stub
 		return false;
 	}
 
