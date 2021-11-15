@@ -1,0 +1,26 @@
+package com.bikkadit.phonebook.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.bikkadit.phonebook.entity.Contact;
+import com.bikkadit.phonebook.service.ContactServiceI;
+
+@Controller
+public class ContactInfoController {
+
+	@Autowired
+	private ContactServiceI contactServiceI;
+	
+	@GetMapping("/contact")
+	private String loadContactForm(Model model) {
+		Contact contactobj=new Contact();
+		model.addAttribute("contact",contactobj);
+		return "contactInfo";
+		
+		
+		
+	}
+}

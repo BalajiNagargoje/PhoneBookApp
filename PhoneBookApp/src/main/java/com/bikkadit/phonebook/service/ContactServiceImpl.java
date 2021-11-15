@@ -4,10 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.bikkadit.phonebook.entity.Contact;
 import com.bikkadit.phonebook.repository.ContactRepository;
-
+@Service
 public class ContactServiceImpl implements ContactServiceI {
 
 	@Autowired

@@ -6,10 +6,11 @@ import org.springframework.stereotype.Service;
 
 import com.bikkadit.phonebook.entity.Contact;
 
-@Service
+
 public interface ContactServiceI {
 	
 	boolean saveContact(Contact contact);
+	
 	List<Contact> getAllContacts();
 	
 	Contact getContactById(Integer cid);
